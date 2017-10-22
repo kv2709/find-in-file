@@ -1,0 +1,22 @@
+{% extends "loadfile_app/base.html" %}
+
+{% block content %}
+    <h2>
+        Результат последнего поиска
+    </h2>
+    <h4> Время поиска {{ time_search }} </h4>
+    <h4> Количество найденных совпадений {{ count_finder }} </h4>
+    {% if count_finder > 0 %}
+        <h4> Позиции в искомом файле </h4>
+        <ul>
+        {% for res in lst_res %}
+            <li>
+                <p> {{ res }} </p>
+            </li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+    <h4>Загруженный файл {{ file_name_deleted }} был удален после завершения поиска</h4>
+
+{% endblock content %}

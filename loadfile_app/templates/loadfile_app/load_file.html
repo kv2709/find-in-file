@@ -1,0 +1,32 @@
+{% extends "loadfile_app/base.html" %}
+
+
+{% block header %}
+    <h2>Загрузка файла</h2>
+{% endblock header %}
+
+
+{% block content %}
+
+{#    action="{% url 'loadfile_app:load_file' %}"#}
+    <form  method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="line_fields">
+{#            <label class="label_form">Имя файла</label>#}
+{#            {{ form.file_name }}#}
+            {{ form.file_obj }}
+        </div>
+
+
+        <div class="line_btn">
+            <button name="submit" class="submit_btn">Загрузить файл</button>
+        </div>
+    </form>
+    <br>
+    <h4>Размер загружаемого файла ограничен 10Мб</h4>
+    {% if fs %}
+        <h4>
+            Размер выбранного файла {{ fs }} превышает допустимое значение
+        </h4>
+    {% endif %}
+{% endblock content %}

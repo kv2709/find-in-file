@@ -1,0 +1,153 @@
+html, body{
+    margin: auto;
+    padding: 10px;
+    height: 100%;
+    color: #eee;
+}
+
+body{
+    background-image: url(fone.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+li{
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.container{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.padding20302020 {
+    padding: 0px 20px 0px 20px;
+}
+
+.label_form{
+    display: block;
+    padding: 10px 20px 0 0;
+    float: left;
+    width: 168px;
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+.line_fields{
+    padding: 5px;
+}
+
+.line_btn{
+    padding: 10px 20px 0 0;
+}
+
+.submit_btn{
+    display: block;
+    background: #037d02;
+    border-radius: 7px;
+    padding: 15px 25px;
+    height: 15px;
+    line-height: 1px;
+    color: inherit;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.submit_btn:hover{
+    background: #014000;
+    }
+
+#id_str_for_search{
+    color: black;
+}
+
+.line_fields{
+    padding: 5px;
+}
+
+.label_form{
+    display: block;
+    padding: 7px 0 0 0;
+    float: left;
+    width: 168px;
+    word-wrap: break-word;
+    line-height: 1;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 2400px) {
+
+.my-head-d{
+    display: block;
+    top: -2px;
+    }
+
+.django-logo{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 0;
+    position: relative;
+	top: -2px;
+    }
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+.my-head-d{
+    display: block;
+    }
+
+.django-logo{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 0;
+    position: relative;
+	top: -2px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.my-head-d{
+    display: block;
+    }
+
+.django-logo{
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 0;
+    position: relative;
+	top: -2px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+.my-head-d{
+    display: block;
+    }
+
+.django-logo{
+    width: 25px;
+    margin-left: 15px;
+    position: relative;
+	top: -10px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.my-head-d{
+    display: block;
+    }
+}

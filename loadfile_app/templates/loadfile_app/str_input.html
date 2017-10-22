@@ -1,0 +1,25 @@
+{% extends "loadfile_app/base.html" %}
+
+{% block header %}
+    <h2>Строка поиска</h2>
+{% endblock header %}
+
+
+{% block content %}
+
+    <form action="{% url 'loadfile_app:str_input' %}" method="post">
+        {% csrf_token %}
+        <div class="line_fields">
+            <label class="label_form">Строка для поиска</label>
+            {{ form.str_for_search }}
+        </div>
+
+        <div class="line_btn">
+            <button name="submit" class="submit_btn">Начать поиск</button>
+        </div>
+    </form>
+        <br>
+        <h4>Загружен файл {{ upload_file_for_form }}</h4>
+        <h4>Размер файла {{ upload_file_size }} байт</h4>
+
+{% endblock content %}
