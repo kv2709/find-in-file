@@ -108,6 +108,7 @@ def load_file(request):
             new_file.file_size = fs
             if fs <= 10485760:
                 new_file.save()
+                print(str(new_file.file_obj.path))
             else:
                 format_triad = lambda s: " ".join([s[max(i - 3, 0):i] for i in range(len(s), 0, -3)][::-1])
                 fs_str_triad = format_triad(str(fs))
