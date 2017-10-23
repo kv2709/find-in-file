@@ -41,7 +41,6 @@ class FinderBF():
             id_f = 0
 
             while id_f <= count_byte_in_file - count_byte_search:
-
                 lst_found = []
                 for j in range(count_byte_search):
                     if self.lst_search_byte[j] == self.lst_byte_from_file[id_f + j]:
@@ -89,7 +88,6 @@ class CombBF():
             count_byte_search, self.lst_search_byte = prepare_search_str(self.str_for_search)
             id_f = 0
             queue_on_file = deque()
-            print('Start')
             while id_f <= count_byte_in_file:
                 if id_f < count_byte_search:
                     queue_on_file.append(int(fd.read(1)[0]))
@@ -122,32 +120,3 @@ class CombBF():
 
     def time_search(self):
         return self.time_search_in_file
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                # self.lst_search_str = self.str_for_search.split(' ')
-        # count_byte_search = len(self.lst_search_str)
-        # for i in range(count_byte_search):
-        #     if self.lst_search_str[i] != '?':
-        #         self.lst_search_byte.append(int(self.lst_search_str[i], 16))
-        #     else:
-        #         self.lst_search_byte.append(500)
-
-
-
-
-
-
-
-
