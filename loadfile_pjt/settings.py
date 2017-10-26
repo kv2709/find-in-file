@@ -157,6 +157,9 @@ if cwd == '/app' or cwd[:4] == '/tmp':
     ALLOWED_HOSTS = ['find-in-file.herokuapp.com']
     DEBUG = False
 
+
+
+
     # Static asset configuration
     PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
     STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
