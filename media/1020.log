@@ -1,0 +1,205 @@
+[10-24-2017 15:54:57:793]- LOG(1B30): PRODUCTInst--
+[10-24-2017 15:54:57:794]- LOG(1B30): InitProperties - retrieve props from file 'C:\Users\user\AppData\Local\Temp\7zS3774\properties.ini'
+[10-24-2017 15:54:57:797]- LOG(1B30): Installer version: 1.0.5.3
+[10-24-2017 15:54:57:797]- LOG(1B30):  --- Language IDs ---
+[10-24-2017 15:54:57:797]- LOG(1B30):   User Default UI Language =   1049,   0x419
+[10-24-2017 15:54:57:797]- LOG(1B30):   System Default UI Language = 1049,   0x419
+[10-24-2017 15:54:57:798]- LOG(1B30):   User Default Language ID =   1049,   0x419
+[10-24-2017 15:54:57:798]- LOG(1B30):   System Default Language ID = 1049,   0x419
+[10-24-2017 15:54:57:798]- LOG(1B30):   Language ID To Be Used =     1049,   0x419
+[10-24-2017 15:54:57:798]- LOG(1B30): Is64BitWindows()
+[10-24-2017 15:54:57:799]- LOG(1B30): Compiled as 64bit app so must be on 64 bit Windows.
+[10-24-2017 15:54:57:799]- LOG(1B30): OS is 64 bit
+[10-24-2017 15:54:57:799]- LOG(1B30): cmdline 'PRODUCTI'
+[10-24-2017 15:54:57:800]- LOG(1B30): -\/\/\/- Properties -\/\/\/-
+[10-24-2017 15:54:57:800]- LOG(1B30): PRINT_INFNAME = HPLJ1020.INF
+[10-24-2017 15:54:57:800]- LOG(1B30): PRINT_VERNAME = SUHP1020.VER
+[10-24-2017 15:54:57:800]- LOG(1B30): SHORT_PRINTER_NAME = HP LaserJet 1020 driver
+[10-24-2017 15:54:57:801]- LOG(1B30): PRINTER_SERIES_NAME = HP LaserJet 1020 Series
+[10-24-2017 15:54:57:801]- LOG(1B30): PRODUCT_VIDPID = vid_03f0&pid_2b17,vid_03f0&pid_2c17,vid_03f0&pid_2d17,vid_03f0&pid_3017,vid_03f0&pid_4117
+[10-24-2017 15:54:57:801]- LOG(1B30): REG_INSTALLKEY = HP LaserJet 1020 Series
+[10-24-2017 15:54:57:801]- LOG(1B30): ISRUNNING_MUTEX_NAME = HPLaserJet1020InstallExists
+[10-24-2017 15:54:57:802]- LOG(1B30): INSTALL_DIRECTORY = HP LaserJet 1020 driver
+[10-24-2017 15:54:57:802]- LOG(1B30): -/\/\/\- Properties -/\/\/\-
+[10-24-2017 15:54:57:802]- LOG(1B30): PRODUCT Installer ---------------------------------------------------
+[10-24-2017 15:54:57:802]- LOG(1B30): InstallSequencer()
+[10-24-2017 15:54:57:803]- LOG(1B30): InstallSequencer() step = 0
+[10-24-2017 15:54:57:803]- LOG(1B30): InstallSequencer() step = 1
+[10-24-2017 15:54:57:803]- LOG(1B30): --- InitializeStep ---
+[10-24-2017 15:54:57:804]- LOG(1B30): GetLandDir - Russian
+[10-24-2017 15:54:57:804]- LOG(1B30):   print inf:C:\Users\user\AppData\Local\Temp\7zS3774\HPLJ1020.INF
+[10-24-2017 15:54:57:804]- LOG(1B30):   printer verion file: C:\Users\user\AppData\Local\Temp\7zS3774\SUHP1020.VER
+[10-24-2017 15:54:57:804]- LOG(1B30):   printer series name: HP LaserJet 1020 Series
+[10-24-2017 15:54:57:805]- LOG(1B30): GetPrinternamesFromINF()
+[10-24-2017 15:54:57:829]- LOG(1B30): InstallSequencer() step = 3
+[10-24-2017 15:54:57:830]- LOG(1B30): --- LicenseStep --- 
+[10-24-2017 15:54:57:830]- LOG(1B30):  License file: 'C:\Users\user\AppData\Local\Temp\7zS3774\\license.txt'
+[10-24-2017 15:54:57:875]- LOG(1B30): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[10-24-2017 15:54:57:883]- LOG(1B30): IDLCGenericTextDlg::OnInitDialog 
+[10-24-2017 15:54:57:884]- LOG(1B30): Strings(): stringsDllPath: C:\Users\user\AppData\Local\Temp\7zS3774\strings.dll
+[10-24-2017 15:54:57:899]- LOG(1B30): IDLCGenericTextDlg::OnInitDialog -- load text from file 'C:\Users\user\AppData\Local\Temp\7zS3774\\license.txt'
+[10-24-2017 15:54:57:901]- LOG(1B30): Text is plain
+[10-24-2017 15:55:00:300]- LOG(1B30):  -[ IDLCGenericTextDlg BUTTON 1 pressed ]-
+[10-24-2017 15:55:00:310]- LOG(1B30): StartProgressDialog()  g_progressDlgRunning = 0
+[10-24-2017 15:55:00:311]- LOG(1B30): StartProgressDialog()  Starting progress dialog thread ...
+[10-24-2017 15:55:00:319]- LOG(1B30): Checking thread dialog handle 0
+[10-24-2017 15:55:00:326]- LOG(1434): IDLCProgressDlg::OnInitDialog()
+[10-24-2017 15:55:00:327]- LOG(1434): IDLCProgressDlg::DoDataExchange
+[10-24-2017 15:55:00:328]- LOG(1434): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[10-24-2017 15:55:00:819]- LOG(1B30): InstallSequencer() step = 5
+[10-24-2017 15:55:00:820]- LOG(1B30): --- MsiInstallStep --- 
+[10-24-2017 15:55:00:821]- LOG(1B30): Installing 1 Core MSIs --
+[10-24-2017 15:55:00:822]- LOG(1B30): ==================== INSTALL MSI ========================
+[10-24-2017 15:55:00:823]- LOG(1B30): CMsi::Install(C:\Users\user\AppData\Local\Temp\7zS3774\\, )
+[10-24-2017 15:55:00:824]- LOG(1B30): CMsi::_Install(C:\Users\user\AppData\Local\Temp\7zS3774\\,  REBOOT=ReallySuppress  ADDCLID=1049 )
+[10-24-2017 15:55:00:856]- LOG(1B30): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[10-24-2017 15:55:00:857]- LOG(1B30): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[10-24-2017 15:55:00:857]- LOG(1B30): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[10-24-2017 15:55:00:858]- LOG(1B30): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[10-24-2017 15:55:00:859]- LOG(1B30): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[10-24-2017 15:55:00:860]- LOG(1B30): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[10-24-2017 15:55:00:861]- LOG(1B30):   Msi ProductCode = UNKNOWN
+[10-24-2017 15:55:00:862]- LOG(1B30):   Msi UpgradeCode = UNKNOWN
+[10-24-2017 15:55:00:862]- LOG(1B30):   Msi ProductVersion = UNKNOWN
+[10-24-2017 15:55:01:324]- LOG(1B30):   --- FAILED install C:\Users\user\AppData\Local\Temp\7zS3774\\
+[10-24-2017 15:55:01:324]- LOG(1B30): ===>>> ERROR (gle=3, 0x3):  Msg: The system cannot find the path specified.
+  Context: Failed Core msi Install 
+[10-24-2017 15:55:01:324]- LOG(1B30): InstallSequencer() step = 4
+[10-24-2017 15:55:01:324]- LOG(1B30): --- PreInstallStep ---
+[10-24-2017 15:55:01:324]- LOG(1B30): IsDriverInstalled(List)
+[10-24-2017 15:55:01:324]- LOG(1B30): IsDriverInstalled(HP LaserJet 1020)
+[10-24-2017 15:55:01:325]- LOG(1B30): FindInstalledDrivers()
+[10-24-2017 15:55:01:325]- LOG(1B30): PrinterDriver?  HP LaserJet 1020 ?= Samsung Universal Print Driver 3 XPS
+[10-24-2017 15:55:01:325]- LOG(1B30): PrinterDriver?  HP LaserJet 1020 ?= Microsoft XPS Document Writer
+[10-24-2017 15:55:01:325]- LOG(1B30): PrinterDriver?  HP LaserJet 1020 ?= Microsoft Shared Fax Driver
+[10-24-2017 15:55:01:325]- LOG(1B30): PrinterDriver?  HP LaserJet 1020 ?= Adobe PDF Converter
+[10-24-2017 15:55:01:325]- LOG(1B30): IsDriverInstalled(HP LaserJet 1022)
+[10-24-2017 15:55:01:325]- LOG(1B30): FindInstalledDrivers()
+[10-24-2017 15:55:01:326]- LOG(1B30): PrinterDriver?  HP LaserJet 1022 ?= Samsung Universal Print Driver 3 XPS
+[10-24-2017 15:55:01:326]- LOG(1B30): PrinterDriver?  HP LaserJet 1022 ?= Microsoft XPS Document Writer
+[10-24-2017 15:55:01:326]- LOG(1B30): PrinterDriver?  HP LaserJet 1022 ?= Microsoft Shared Fax Driver
+[10-24-2017 15:55:01:326]- LOG(1B30): PrinterDriver?  HP LaserJet 1022 ?= Adobe PDF Converter
+[10-24-2017 15:55:01:326]- LOG(1B30): IsDriverInstalled(HP LaserJet 1022n)
+[10-24-2017 15:55:01:326]- LOG(1B30): FindInstalledDrivers()
+[10-24-2017 15:55:01:326]- LOG(1B30): PrinterDriver?  HP LaserJet 1022n ?= Samsung Universal Print Driver 3 XPS
+[10-24-2017 15:55:01:326]- LOG(1B30): PrinterDriver?  HP LaserJet 1022n ?= Microsoft XPS Document Writer
+[10-24-2017 15:55:01:327]- LOG(1B30): PrinterDriver?  HP LaserJet 1022n ?= Microsoft Shared Fax Driver
+[10-24-2017 15:55:01:327]- LOG(1B30): PrinterDriver?  HP LaserJet 1022n ?= Adobe PDF Converter
+[10-24-2017 15:55:01:327]- LOG(1B30): IsDriverInstalled(HP LaserJet 1022nw)
+[10-24-2017 15:55:01:327]- LOG(1B30): FindInstalledDrivers()
+[10-24-2017 15:55:01:327]- LOG(1B30): PrinterDriver?  HP LaserJet 1022nw ?= Samsung Universal Print Driver 3 XPS
+[10-24-2017 15:55:01:327]- LOG(1B30): PrinterDriver?  HP LaserJet 1022nw ?= Microsoft XPS Document Writer
+[10-24-2017 15:55:01:327]- LOG(1B30): PrinterDriver?  HP LaserJet 1022nw ?= Microsoft Shared Fax Driver
+[10-24-2017 15:55:01:328]- LOG(1B30): PrinterDriver?  HP LaserJet 1022nw ?= Adobe PDF Converter
+[10-24-2017 15:55:01:328]- LOG(1B30): IsDriverInstalled(HP LaserJet 1018)
+[10-24-2017 15:55:01:328]- LOG(1B30): FindInstalledDrivers()
+[10-24-2017 15:55:01:328]- LOG(1B30): PrinterDriver?  HP LaserJet 1018 ?= Samsung Universal Print Driver 3 XPS
+[10-24-2017 15:55:01:328]- LOG(1B30): PrinterDriver?  HP LaserJet 1018 ?= Microsoft XPS Document Writer
+[10-24-2017 15:55:01:328]- LOG(1B30): PrinterDriver?  HP LaserJet 1018 ?= Microsoft Shared Fax Driver
+[10-24-2017 15:55:01:328]- LOG(1B30): PrinterDriver?  HP LaserJet 1018 ?= Adobe PDF Converter
+[10-24-2017 15:55:01:328]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1125, param=17049
+[10-24-2017 15:55:01:328]- LOG(1B30): InstallProgramFiles()
+[10-24-2017 15:55:01:329]- LOG(1434): IDLCProgressDlg::OnCurrentProgressMsg()
+[10-24-2017 15:55:01:329]- LOG(1434):    msg=??????????? ?????? ?? ??????? ????...
+[10-24-2017 15:55:01:329]- LOG(1B30):   programFilesDir:C:\Program Files\HP\HP LaserJet 1020 driver
+[10-24-2017 15:55:01:329]- LOG(1B30): CopyEntireFolder(C:\Users\user\AppData\Local\Temp\7zS3774\,C:\Program Files\HP\HP LaserJet 1020 driver)
+[10-24-2017 15:55:01:329]- LOG(1B30): CopyFilterFiles(*.*, C:\Users\user\AppData\Local\Temp\7zS3774\, C:\Program Files\HP\HP LaserJet 1020 driver)
+[10-24-2017 15:55:01:329]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\DIFxAPI.dll to C:\Program Files\HP\HP LaserJet 1020 driver\DIFxAPI.dll
+[10-24-2017 15:55:01:331]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\drv64.cab to C:\Program Files\HP\HP LaserJet 1020 driver\drv64.cab
+[10-24-2017 15:55:01:332]- LOG(1B30): CopyFilterFiles(*.*, C:\Users\user\AppData\Local\Temp\7zS3774\\English, C:\Program Files\HP\HP LaserJet 1020 driver\English)
+[10-24-2017 15:55:01:332]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\SDhp1018.chm to C:\Program Files\HP\HP LaserJet 1020 driver\English\SDhp1018.chm
+[10-24-2017 15:55:01:333]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\SDhp1020.chm to C:\Program Files\HP\HP LaserJet 1020 driver\English\SDhp1020.chm
+[10-24-2017 15:55:01:333]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\SDhp1020.SDD to C:\Program Files\HP\HP LaserJet 1020 driver\English\SDhp1020.SDD
+[10-24-2017 15:55:01:334]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\SUhp1020.ent to C:\Program Files\HP\HP LaserJet 1020 driver\English\SUhp1020.ent
+[10-24-2017 15:55:01:334]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\ZShp1018.chm to C:\Program Files\HP\HP LaserJet 1020 driver\English\ZShp1018.chm
+[10-24-2017 15:55:01:335]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\ZShp1020.chm to C:\Program Files\HP\HP LaserJet 1020 driver\English\ZShp1020.chm
+[10-24-2017 15:55:01:335]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\English\zshp1020s.dll to C:\Program Files\HP\HP LaserJet 1020 driver\English\zshp1020s.dll
+[10-24-2017 15:55:01:353]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\hp1018.img to C:\Program Files\HP\HP LaserJet 1020 driver\hp1018.img
+[10-24-2017 15:55:01:354]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\hp1020.img to C:\Program Files\HP\HP LaserJet 1020 driver\hp1020.img
+[10-24-2017 15:55:01:354]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\hp102032.cat to C:\Program Files\HP\HP LaserJet 1020 driver\hp102032.cat
+[10-24-2017 15:55:01:355]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\hp102064.cat to C:\Program Files\HP\HP LaserJet 1020 driver\hp102064.cat
+[10-24-2017 15:55:01:356]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\hp1022.img to C:\Program Files\HP\HP LaserJet 1020 driver\hp1022.img
+[10-24-2017 15:55:01:356]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\hp1022n.img to C:\Program Files\HP\HP LaserJet 1020 driver\hp1022n.img
+[10-24-2017 15:55:01:357]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\HPLJ1020.INF to C:\Program Files\HP\HP LaserJet 1020 driver\HPLJ1020.INF
+[10-24-2017 15:55:01:358]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\license.txt to C:\Program Files\HP\HP LaserJet 1020 driver\license.txt
+[10-24-2017 15:55:01:358]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\License7z.txt to C:\Program Files\HP\HP LaserJet 1020 driver\License7z.txt
+[10-24-2017 15:55:01:359]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\ProductInst.exe to C:\Program Files\HP\HP LaserJet 1020 driver\ProductInst.exe
+[10-24-2017 15:55:01:360]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\properties.ini to C:\Program Files\HP\HP LaserJet 1020 driver\properties.ini
+[10-24-2017 15:55:01:361]- LOG(1B30): CopyFilterFiles(*.*, C:\Users\user\AppData\Local\Temp\7zS3774\\Russian, C:\Program Files\HP\HP LaserJet 1020 driver\Russian)
+[10-24-2017 15:55:01:361]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\SDhp1018.chm to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\SDhp1018.chm
+[10-24-2017 15:55:01:361]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\SDhp1020.chm to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\SDhp1020.chm
+[10-24-2017 15:55:01:362]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\SDhp1020.SDD to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\SDhp1020.SDD
+[10-24-2017 15:55:01:362]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\SUhp1020.ent to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\SUhp1020.ent
+[10-24-2017 15:55:01:363]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\ZShp1018.chm to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\ZShp1018.chm
+[10-24-2017 15:55:01:363]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\ZShp1020.chm to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\ZShp1020.chm
+[10-24-2017 15:55:01:364]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Russian\zshp1020s.dll to C:\Program Files\HP\HP LaserJet 1020 driver\Russian\zshp1020s.dll
+[10-24-2017 15:55:01:365]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Setup.exe to C:\Program Files\HP\HP LaserJet 1020 driver\Setup.exe
+[10-24-2017 15:55:01:365]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\Strings.dll to C:\Program Files\HP\HP LaserJet 1020 driver\Strings.dll
+[10-24-2017 15:55:01:366]- LOG(1B30): Copy file C:\Users\user\AppData\Local\Temp\7zS3774\\SUHP1020.VER to C:\Program Files\HP\HP LaserJet 1020 driver\SUHP1020.VER
+[10-24-2017 15:55:01:366]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1125, param=13074
+[10-24-2017 15:55:01:366]- LOG(1B30): Preinstalling inf C:\Users\user\AppData\Local\Temp\7zS3774\HPLJ1020.INF
+[10-24-2017 15:55:01:367]- LOG(1434): IDLCProgressDlg::OnCurrentProgressMsg()
+[10-24-2017 15:55:01:367]- LOG(1B30): PreInstallDriverFiles()
+[10-24-2017 15:55:01:367]- LOG(1434):    msg=??????????????? ????????? ?????? ????????...
+[10-24-2017 15:55:01:367]- LOG(1B30): _PreInstallDriverFiles()
+[10-24-2017 15:55:01:367]- LOG(1B30):   inf:C:\Users\user\AppData\Local\Temp\7zS3774\HPLJ1020.INF
+[10-24-2017 15:55:03:019]- LOG(1B30):   DriverPackagePreinstall = 0, flags=0x15
+[10-24-2017 15:55:03:019]- LOG(1B30): InstallSequencer() step = 6
+[10-24-2017 15:55:03:020]- LOG(1B30): --- InstallUsbStep --- PROP_PRINTER_NAME: HP LaserJet 1020 Series
+[10-24-2017 15:55:03:020]- LOG(1B30): FindInstalledPrinters(driverList 5 elements)
+[10-24-2017 15:55:03:022]- LOG(1B30): == Searching installed printers for our driver names...
+[10-24-2017 15:55:03:023]- LOG(1B30):   Driver name: HP LaserJet 1020
+[10-24-2017 15:55:03:023]- LOG(1B30):   Driver name: HP LaserJet 1022
+[10-24-2017 15:55:03:023]- LOG(1B30):   Driver name: HP LaserJet 1022n
+[10-24-2017 15:55:03:024]- LOG(1B30):   Driver name: HP LaserJet 1022nw
+[10-24-2017 15:55:03:024]- LOG(1B30):   Driver name: HP LaserJet 1018
+[10-24-2017 15:55:03:024]- LOG(1B30):   -Installed Driver name: Microsoft XPS Document Writer
+[10-24-2017 15:55:03:025]- LOG(1B30):   -Installed Driver name: Microsoft Shared Fax Driver
+[10-24-2017 15:55:03:025]- LOG(1B30):   -Installed Driver name: Adobe PDF Converter
+[10-24-2017 15:55:03:025]- LOG(1B30):  Found NO printers with our drivername
+[10-24-2017 15:55:03:026]- LOG(1B30): SetDriverPackageInfPath(C:\Users\user\AppData\Local\Temp\7zS3774\HPLJ1020.INF)
+[10-24-2017 15:55:03:026]- LOG(1B30): SetScanInfPath()
+[10-24-2017 15:55:03:026]- LOG(1B30): SetEwsInfPath()
+[10-24-2017 15:55:03:027]- LOG(1B30): SetFaxInfPath()
+[10-24-2017 15:55:03:027]- LOG(1B30): SetFaxPrintInfPath()
+[10-24-2017 15:55:03:027]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1125, param=13071
+[10-24-2017 15:55:03:028]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1129, param=0
+[10-24-2017 15:55:03:028]- LOG(1434): IDLCProgressDlg::OnCurrentProgressMsg()
+[10-24-2017 15:55:03:028]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1133, param=0
+[10-24-2017 15:55:03:029]- LOG(1434):    msg=???????? ??????????? ??????????.
+[10-24-2017 15:55:03:031]- LOG(1434): IDLCProgressDlg::OnStopCurrentProgress()
+[10-24-2017 15:55:03:032]- LOG(1434): IDLCProgressDlg::OnResetCurrentProgress()
+[10-24-2017 15:55:03:055]- LOG(1B30): Inside CConnectDlg -- SetTime to Waiting for PnP...
+[10-24-2017 15:55:03:750]- LOG(1B30): IsNewDeviceConnected(vidpidList with 5 elements)
+[10-24-2017 15:55:03:750]- LOG(1B30): _GetUSBDevice(index=0, vidpid=vid_03f0&pid_2b17)
+[10-24-2017 15:55:03:750]- LOG(1B30): _GetUSBDevice first time so GetClassDevs
+[10-24-2017 15:55:03:751]- LOG(1B30): Device: USB\VID_03F0&PID_2B17\JL3RSVG
+[10-24-2017 15:55:03:751]- LOG(1B30): IsDeviceInstalled(USB\VID_03F0&PID_2B17\JL3RSVG)
+[10-24-2017 15:55:03:751]- LOG(1B30): USBdevInstID_to_USBPRINTdevInstID()
+[10-24-2017 15:55:03:752]- LOG(1B30): GetStringFromHKLM SYSTEM\CurrentControlSet\Enum\USB\VID_03F0&PID_2B17\JL3RSVG ParentIdPrefix
+[10-24-2017 15:55:03:752]- LOG(1B30): GetValueFromHKey SYSTEM\CurrentControlSet\Enum\USB\VID_03F0&PID_2B17\JL3RSVG ParentIdPrefix
+[10-24-2017 15:55:03:753]- LOG(1B30):  Found a device connected that is NOT installed: USB\VID_03F0&PID_2B17\JL3RSVG
+[10-24-2017 15:55:03:753]- LOG(1B30): --!-- New devices connected.  Starting animaton...
+[10-24-2017 15:55:03:753]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1130, param=0
+[10-24-2017 15:55:03:753]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1125, param=13072
+[10-24-2017 15:55:03:753]- LOG(1434): IDLCProgressDlg::OnStartCurrentProgress(0)
+[10-24-2017 15:55:03:754]- LOG(1434): IDLCProgressDlg -- setting current progress tic = 500
+[10-24-2017 15:55:03:755]- LOG(1434): IDLCProgressDlg::OnCurrentProgressMsg()
+[10-24-2017 15:55:03:755]- LOG(1434):    msg=?????????? ??????????, ????????? ?????????? ????????? ???????? PnP...
+[10-24-2017 15:55:04:449]- LOG(1B30): InstallingDriver inf before PnP C:\Users\user\AppData\Local\Temp\7zS3774\HPLJ1020.INF
+[10-24-2017 15:55:04:450]- LOG(1B30): DRIVER_PACKAGE_FORCE=0x4, DRIVER_PACKAGE_ONLY_IF_DEVICE_PRESENT=0x8, flags=0xc)
+[10-24-2017 15:55:04:450]- LOG(1B30): InstallDriver(..., flags=0xc)
+[10-24-2017 15:55:04:450]- LOG(1B30):   inf:C:\Users\user\AppData\Local\Temp\7zS3774\HPLJ1020.INF
+[10-24-2017 15:55:06:702]- LOG(1B30):   DriverPackageInstall = 0, flags=0x1c
+[10-24-2017 15:55:06:705]- LOG(1B30): InstallSequencer() step = 7
+[10-24-2017 15:55:06:705]- LOG(1B30): TerminateProgressThrd(0x43cf50)
+[10-24-2017 15:55:06:706]- LOG(1B30): _PostProgressMessage hWnd=0x90696 msg=1124, param=0
+[10-24-2017 15:55:06:706]- LOG(1434): IDLCProgressDlg::OnTerminate()
+[10-24-2017 15:55:07:206]- LOG(1B30): --- FinishStep ---
+[10-24-2017 15:55:07:217]- LOG(1B30): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[10-24-2017 15:55:07:222]- LOG(1B30): IDLCGenericTextDlg::OnInitDialog 
+[10-24-2017 15:55:07:223]- LOG(1B30): Text is plain
+[10-24-2017 15:55:09:235]- LOG(1B30):  -[ IDLCGenericTextDlg BUTTON 0 pressed ]-
