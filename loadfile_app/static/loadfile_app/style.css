@@ -13,6 +13,17 @@ body{
     background-size: cover;
 }
 
+
+A {
+    color: #015000; /* Цвет ссылок */
+}
+A:visited {
+    color: #faff04; /* Цвет посещенных ссылок */
+}
+A:active {
+    color: #54e50e; /* Цвет активных ссылок */
+}
+
 li{
     font-family: Arial, sans-serif;
     font-size: medium;
